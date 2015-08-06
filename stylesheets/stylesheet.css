@@ -490,7 +490,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 620px;
 }
 
 #main-content img {
@@ -499,7 +499,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 200px;
+  width: 250px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
@@ -895,4 +895,50 @@ footer a:hover {
 .btn-action:hover {
     background-color: #fff;
     color: #2879d0;
+}
+
+/* =============================================================================
+ *    SPEAKER
+ * ========================================================================== */
+.speaker {
+    position: relative;
+    min-height: 170px;
+    margin: 20px 0px;
+}
+.speakers-left { float: left; width: 150px }
+.speakers-right { float: right; width: 460px }
+.speakers-item {
+    position: relative;
+    min-height: 180px;
+    padding-left: 180px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #e7e7e7;
+}
+.speaker-photo {
+    position: relative;
+    float: left;
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+.speaker-photo .photo {
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0,0,0,.07);
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speech-title {
+    padding-top: 10px;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.speakers-name {
+    font-size: 1.6em !important;
+    margin-left: 30px;
+    margin-bottom: 0 !important;
+    margin-top: 0px !important;
+}
+.speakers-bio {
+    font-size: 0.9em;
+    float: left;
+    margin-left: 25px;
 }
