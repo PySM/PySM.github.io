@@ -916,7 +916,7 @@ footer a:hover {
  * ========================================================================== */
 .speaker {
     position: relative;
-    min-height: 170px;
+    min-height: 200px;
     margin: 20px 0px;
 }
 .speakers-left { float: left; width: 150px }
