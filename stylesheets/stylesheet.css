@@ -970,3 +970,14 @@ footer a:hover {
 #programacao {
   clear: both;
 }
+
+table thead th {
+    text-align: left;
+    font-weight: 900;
+    padding: 5px;
+    font-size: 16px;
+}
+tbody tr:nth-child(odd) { background-color: #f5f5f5 }
+td { text-align: left; padding: 5px }
+.center td { text-align: center }
+.bold td { font-weight: 900 }
