@@ -1,360 +1,155 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/x-icon" href="http://www.python.org/static/favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="stylesheet" type="text/css" href="stylesheets/flaticon.css" >
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <title itemprop="name">PySM 2019</title>
 
-    <title>PySM 2015</title>
-  </head>
+  <meta charset="utf-8">
+  <meta name="author" content="PySM 2019">
+  <meta name="description" content="Evento de Python em Santa Maria/RS">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <body>
-    <header id="home">
-      <div class="inner">
-        <h1>PySM 2015</h1>
-        <h2>29/08/2015, Unifra, Santa Maria</h2>
+  <!-- FACEBOOK -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://pysm.github.io">
+  <meta property="og:title" content="PySM 2019">
+  <meta property="og:description" content="Evento de Python em Santa Maria/RS">
+  <meta property="og:image" content="http://pysm.github.io/themes/yellow-swan/img/PySM.png">
+  <!-- / FACEBOOK -->
+
+  <link rel="shortcut icon" href="http://www.python.org/static/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="http://www.python.org/static/favicon.ico">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" type="text/css" href="themes/yellow-swan/css/main.css">
+  <!-- / STYLES -->
+
+</head>
+<body>
+  <div class="global">
+    <!-- NAVIGATION -->
+    <nav id="nav">
+      <ul class="wrapper">
+          <li class="nav-item">
+            <a href="#about" title="Sobre" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#schedule" title="Local" class="nav-link">Programação</a>
+          </li>
+          <li class="nav-item">
+            <a href="#speakers" title="Local" class="nav-link">Palestrantes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#enrollment" title="Local" class="nav-link">Inscrições</a>
+          </li>
+          <li class="nav-item">
+            <a href="#location" title="Local" class="nav-link">Local</a>
+          </li>
+          <li class="nav-item">
+            <a href="edicoes-passadas/2015/index.html" title="Local" class="nav-link" target="_blank">Site edição 2015</a>
+          </li>
+      </ul>
+    </nav>
+    <hr>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="wrapper">
+        <h1 class="logo-name">
+          <a class="logo-link" href="#" title="PySM 2019" itemprop="name">PySM 2019</a>
+        </h1> <br>
+        <h2 class="tagline">01/06/2019, UFN - Universidade Franciscana, Santa Maria - RS</h2>
+
+        <div class="call-action-area">
+            <!--<a href="#" target="blank" class="call-action-link" title="Inscreva-se">Inscreva-se</a>
+            <span class="tagline">ou</span>-->
+            <a href="https://forms.gle/serGs2L6ho7AHsWY7" target="blank" class="call-action-link" title="Submeta sua palestra">Submeta sua palestra</a>
+        </div>
       </div>
     </header>
-    <br>
-    <nav class="inner">
-      <a href="#home">Home</a>
-      <a href="#palestrantes">Palestrantes</a>
-      <a href="#programacao">Programação</a>
-    </nav>
+    <!--  / HEADER -->
+    <hr>
+    <!-- CONTENT -->
+    <div class="content" id="content">
+      <div class="wrapper">
+        <!-- ABOUT -->
+        <section class="about" id="about">
+          <h2 class="section-title">Sobre</h2>
+          <center><img src="themes/yellow-swan/img/PySM.png"></center>
+          <br>
+          <p itemprop="description">Essa é a <strong>terceira edição do PySM</strong>, um evento com o objetivo de reunir a comunidade Python de Santa Maria e região para promover debates e a troca de conhecimentos através de palestras técnicas para todos os públicos, do iniciante ao expert. Venha participar e prestigiar o evento!</p>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p>Essa é a segunda edição do PySM, um evento com o objetivo de reunir a comunidade Python de Santa Maria e região para promover debates e a troca de conhecimentos através de palestras técnicas para todos os públicos, do iniciante ao expert. Venha participar e prestigiar o evento!</p>
+          <p>O evento ocorrerá na UFN - Universidade Franciscana, que desde a primeira edição vem apoiando o evento.</p>
+
           <p><strong>A entrada ao evento é gratuita e as vagas são limitadas. Fique esperto ;)</strong></p>
-          <p>
-            <strong>Traga 1Kg de alimento não perecível ;)</strong>
-            <a class="btn-action" href="http://www.eventick.com.br/pysm-2015" target="blank">Garanta sua vaga</a>
-          </p>
-          <h1 id="palestrantes">Palestrantes confirmados</h1>
-          <div class="speakers">
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://secure.gravatar.com/avatar/31539ba4707f0bfb36987c0299bbf800?s=300" alt="Relsi Maron" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Relsi Maron
-                          <small>Palestra: Controle sua Casa Remotamente com Python e Arduino</small>
-                    </h3>
-                      <p class="speakers-bio">
-                      Co-fundador da startup CodeFreelas. Atua na área de desenvolvimento web há aproximadamente 7 anos. Membro do MateHackers e do PyTchê. Atualmente trabalhando em projetos na área de internet das coisas com Python e Arduino.<br>
-                      <a href="http://github.com/relsi" target="blank"><i class="flaticon-github"></i></a>
-                      <a href="http://facebook.com/relsi" target="blank"><i class="flaticon-facebook"></i></a>
-                      <a href="http://twitter.com/relsi" target="blank"><i class="flaticon-twitter"></i></a>
-                      <a href="http://linkedin.com/in/relsi" target="blank"><i class="flaticon-linkedin"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10959562_1042549579092590_3384940345814908329_n.jpg?oh=f252766801406b034011c8abc99d660a&oe=56445AD6&__gda__=1451513788_260fa840ad1a4e60a68a9e0a0cf34955" alt="Luiz Henrique Rauber Rodrigues" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Luiz Henrique Rauber Rodrigues
-                          <small>Palestra: Vendo o óbvio do não óbvio do Python imediatamente!</small>
-                      </h3>
-                      <p class="speakers-bio">
-                      Profissional liberal, ou consultor, ou algo que valha em assuntos relacionados a tecnologica. Agita por aí sobre as temáticas de Software E Livre, Hardware Livre, Consciência Ágil e Startups....<br>
-                      <a href="http://facebook.com/luizrauber" target="blank"><i class="flaticon-facebook"></i></a>
-                      <a href="http://linkedin/in/luizrauber" target="blank"><i class="flaticon-linkedin"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://lh6.googleusercontent.com/-beu8ZKbQf1s/Uv4UCWZwAPI/AAAAAAAAAv8/sux6CjnJwCc/s250-no/perfil.jpg" alt="Matheus Pereira" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Matheus Pereira
-                          <small>Palestra: Pythonificando a Universidade</small>
-                      </h3>
-                      <p class="speakers-bio">
-                      Mestrando em Inteligência Artificial na UFRGS, bacharel em Ciência da Computação pela UCS, desenvolvedor de software, programador Python/Zope/Plone, professor, pesquisador e entusiasta de conhecimento compartilhado e software livre.<br>
-                      <a href="http://github.com/matheper" target="blank"><i class="flaticon-github"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="images/speakers/raphael.jpg" alt="Raphael Giordano do Nascimento e Silva" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Raphael Giordano do Nascimento e Silva
-                          <small>Palestra: Python aplicado a bioinformática</small>
-                      </h3>
-                      <p class="speakers-bio">
-                      Bacharel em Ciência da Computação pela UFSM, Pesquisador do SIn (Grupo de Pesquisa em Sistemas Inteligentes). Áreas de pesquisa: bioinformática, mineração de dados, aprendizagem de máquina e informática na educação.<br>
-                      <a href="https://twitter.com/raphaelgiordano" target="blank"><i class="flaticon-twitter"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://avatars2.githubusercontent.com/u/819272?v=3&s=460" alt="Henrique Leal" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Henrique Leal
-                          <small>Palestra: Testes de aceitação com Lettuce e Splinter</small>
-                      </h3>
-                      <p class="speakers-bio">
-                          Apaixonado por Web, Linux, Software Livre e
-                          metodológias ágeis, Python/Django e jQuery.
-                          Programador da Turbosys e Acadêmico de sist. de informação =)
-                        <a href="https://twitter.com/hmleal" target="blank"><i class="flaticon-twitter"></i></a>
-                        <a href="https://github.com/hmleal" target="blank"><i class="flaticon-github"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="http://bolzan.io/assets/images/me.jpg" alt="Tonin de Rosso Bolzan" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Tonin de Rosso Bolzan
-                          <small>Palestra: Python 3, o __futuro__ é agora</small>
-                      </h3>
-                      <p class="speakers-bio">
-                      Desenvolvedor Web & SysAdmin. Programador desde 2008, atualmente trabalho com Desenvolvimento Web utilizando tecnologias open-source, tais como Linux, PHP e Python. Organizador do Software Freedom Day Santa Maria e FEMUG-SM.<br>
-                      <a href="https://github.com/tonybolzan" target="blank"><i class="flaticon-github"></i></a>
-                      <a href="https://www.facebook.com/tonybolzan?fref=ts" target="blank"><i class="flaticon-facebook"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://lh3.googleusercontent.com/-zw8b1hkwxX0/VbGOcvi6XeI/AAAAAAAATwI/pimqTqdaD_k/w490-h491-no/me.jpg" alt="Leandro Nunes" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Leandro Nunes
-                          <small>Palestra: I'm Feeling Lucky: Python e Sistemas de Busca Customizados</small>
-                      </h3>
-                      <p class="speakers-bio">
-                      Desenvolvedor de software no centro de pesquisa e desenvolvimento da  Hewlett-Packard e hobbista na área de eletrônica.<br>
-                      <a href="http://twitter.com/nunesleandron" target="blank"><i class="flaticon-twitter"></i></a>
-                      <a href="https://br.linkedin.com/in/leandron" target="blank"><i class="flaticon-linkedin"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://scontent-gru1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10252014_10152186753332408_1352304312888775392_n.jpg?oh=5a899945b897fd2ffeae757461f0d2f1&oe=563ABCA7" alt="Evandro Leopoldino Gonçalves" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Evandro Leopoldino Gonçalves
-                          <small>Palestra: Metaprogramação em Python</small>
-                      </h3>
-                      <p class="speakers-bio">
-                        Programador full-stack, 10 anos de carreira, trabalhou na AG2, Globo.com e Grupo RBS. Contribuidor de projetos open-source (Python, JavaScript e Lua), está trabalhando para sua empresa Eventer e em um HTTP Server (open-source!) 100% escrito em Lua, chamado Pegasus.lua.
-                        <br>
-                        <a href="https://github.com/evandrolg" target="_blank"><i class="flaticon-github"></i></a>
-                        <a href="https://twitter.com/evandrolg" target="_blank"><i class="flaticon-twitter"></i></a>
-                        <a href="https://br.linkedin.com/pub/evandro-leopoldino-gon%C3%A7alves/24/51/431" target="_blank"><i class="flaticon-linkedin"></i></a>
-                        <a href="https://www.facebook.com/evandro.l.goncalves" target="_blank"><i class="flaticon-facebook"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="https://secure.gravatar.com/avatar/7b9c27e5115aa62bb3382a3a2decda99?s=200" alt="Victor Poluceno" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Victor Poluceno
-                          <small>Palestra: Stream processing com Python e Apache Storm</small>
-                      </h3>
-                      <p class="speakers-bio">
-                          Desenvolver Python e entusiasta em Elixir/Erlang. Apaixonado por sistemas distribuídos e projetos open source. Trabalha como Desenvolvedor Líder na Azion.com.
-                        <br>
-                        <a href="https://github.com/victorpoluceno/" target="_blank"><i class="flaticon-github"></i></a>
-                        <a href="https://twitter.com/victorpoluceno" target="_blank"><i class="flaticon-twitter"></i></a>
-                      </p>
-                  </div>
-              </div>
-              <div class="speaker">
-                  <div class="speakers-left">
-                      <span class="speaker-photo">
-                          <img class="photo" src="images/speakers/adriano-margarin.JPG" alt="Adriano Margarin" itemprop="image">
-                      </span>
-                  </div>
-                  <div class="speakers-right">
-                      <h3 class="speakers-name">
-                          Adriano Margarin
-                          <small>Palestra: Primeiros passos com Splinter</small>
-                      </h3>
-                      <p class="speakers-bio">
-                        Bacharelando em Sistemas de Informação na Universidade de Caxias do Sul. Membro assíduo do Diretório Acadêmico de mesmo curso. Desenvolvedor Python/Django a 3+ anos. Colaborador na empresa Pull4Up
-                        <br>
-                        <a href="https://github.com/adrianomargarin/" target="_blank"><i class="flaticon-github"></i></a>
-                        <a href="https://twitter.com/adrianomargarin/" target="_blank"><i class="flaticon-twitter"></i></a>
-                      </p>
-                  </div>
-              </div>
-          </div>
         </section>
+        <!-- / ABOUT -->
+        <br>
+        <!-- SCHEDULE -->
+        <section class="about" id="schedule">
+          <h2 class="section-title">Programação</h2>
+          <p>Aguarde, ainda estamos recebendo as submissões das palestras. Logo publicaremos a programação ;-)</p>
+        </section>
+        <!-- /SCHEDULE -->
+        <br>
+        <!-- SPEAKERS -->
+        <section class="about" id="speakers">
+          <h2 class="section-title">Palestrantes</h2>
+          <p>Aguarde, ainda estamos recebendo as submissões das palestras. Logo publicaremos o curriculum vitae dos palestrantes ;-)</p>
+        </section>
+        <!-- /SPEAKERS -->
+        <br>
+        <!-- ENROLLMENT -->
+        <section class="about" id="enrollment">
+          <h2 class="section-title">Inscrições</h2>
+          <p>A inscrição é gratuita, entretanto, convidamos você a nos ajudar contribuindo com 1kg de alimento não perecível que será doado para uma instituição de caridade a ser definida. Divulgaremos a entrega das doações, depois do evento.</p>
+          <p>Logo estaremos divulgando o link para inscrição aqui no site oficial do PySM 2019 e no nosso evento no Facebook.</p>
+          <p>A inscrição nos ajuda a prever a quantidade para o coffee break e com a confirmação da sua presença, garante o seu certificado de participação.</p>
+        </section>
+        <!-- /ENROLLMENT -->
+        <br>
+        <!-- LOCATION -->
+        <section class="about" id="location">
+          <h2 class="section-title">Local</h2>
 
-        <aside id="sidebar">
-            <h3>Público geral</h3>
-            <a class="btn-action" href="#" id="btn-imprimir-certificado">Imprima seu certificado</a>
-            <!-- <a class="btn-action" href="http://www.eventick.com.br/pysm-2015" target="blank">Garanta sua vaga</a> -->
-            <p><hr></p>
-            <h3>Realização</h3>
-            <p>
-            <a href="https://github.com/PySM" target="blank" style="display: block; text-align: center">
-                <img src="https://avatars2.githubusercontent.com/u/8395661?v=3&s=200" alt="PySM">
-            </a>
-            </p>
-            <p>
-              <a href="http://www.unifra.br" target="_blank">
-                <img src="http://wwww.unifra.br/image/site/centro_universitario_franciscano.svg" style="background-color:#413A32; padding 5px;">
-              </a>
-            </p>
-            <p>
-              <a href="http://www.centrosoftware.com.br/" target="_blank">
-                <img src="http://centrosoftware.com.br/wp-content/uploads/2013/07/logo.png">
-              </a>
-            </p>
-            <hr>
-            <h3>Como chegar?</h3>
-            <p>Centro Universitário Franciscano<br>Conjunto III.<br>Rua Silva Jardim, 1175, Santa Maria, RS </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1733.108800247956!2d-53.81446599999999!3d-29.684470299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9503cb5c97136d7d%3A0xf2efe74729f19bb2!2sR.+Silva+Jardim%2C+1175+-+Nossa+Sra.+do+Rosario%2C+Santa+Maria+-+RS%2C+97010-492!5e0!3m2!1spt-BR!2sbr!4v1438884556677" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">Rua Silva Jardim, 1175, Cep: 97010-491. </span>
+            <span itemprop="addressLocality">Santa Maria</span>,
+            <span itemprop="addressRegion"> Rio Grande do Sul</span>
+          </p>
 
-        </aside>
+          <div id="map-canvas" class="location-area" data-address="Rua Silva Jardim, 1175 - Ns. do Rosário, Santa Maria - RS, 97010-491, Brasil"></div>
+        </section>
+        <!-- / LOCATION -->
 
-        <h1 id="programacao">Programação</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Horário</th>
-                    <th>Palestrante</th>
-                    <th>Palestra</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="bold">
-                    <td>08:00</td>
-                    <td colspan="2">Credenciamento/Abertura</td>
-                </tr>
-                <tr>
-                    <td>09:00</td>
-                    <td>Tonin R. Bolzan</td>
-                    <td>Python 3, o __futuro__ é agora</td>
-                </tr>
-                <tr>
-                    <td>09:30</td>
-                    <td>Victor Poluceno</td>
-                    <td>Stream processing com Python e Apache Storm</td>
-                </tr>
-                <tr class="bold">
-                    <td>10:00</td>
-                    <td colspan="2">Coffee break</td>
-                </tr>
-                <tr>
-                    <td>10:30</td>
-                    <td>Adriano Margarin</td>
-                    <td>Primeiros passos com Splinter</td>
-                </tr>
-                <tr>
-                    <td>11:00</td>
-                    <td>Henrique Leal</td>
-                    <td>Testes de aceitação com Lettuce e Splinter</td>
-                </tr>
-                <tr>
-                    <td>11:30</td>
-                    <td>Matheus Pereira</td>
-                    <td>Pythonificando a Universidade</td>
-                </tr>
-                <tr class="bold">
-                    <td>12:00</td>
-                    <td colspan="2">Almoço</td>
-                </tr>
-                <tr>
-                    <td>13:30</td>
-                    <td>Evandro Leopoldino Gonçalves</td>
-                    <td>Metaprogramação em Python</td>
-                </tr>
-                <tr>
-                    <td>14:00</td>
-                    <td>Relsi Maron</td>
-                    <td>Controle sua Casa Remotamente com Python e Arduino</td>
-                </tr>
-                <tr>
-                    <td>14:30</td>
-                    <td>Leandro NunesLeandro Nunes</td>
-                    <td>I'm Feeling Lucky: Python e Sistemas de Busca Customizados</td>
-                </tr>
-                <tr class="bold">
-                    <td>15:00</td>
-                    <td colspan="2">Coffee break</td>
-                </tr>
-                <tr>
-                    <td>15:30</td>
-                    <td>Luiz Henrique Rauber Rodrigues</td>
-                    <td>Vendo o óbvio do não óbvio do Python imediatamente!</td>
-                </tr>
-                <tr>
-                    <td>16:00</td>
-                    <td>Raphael Giordano do Nascimento</td>
-                    <td>Python aplicado a bioinformática</td>
-                </tr>
-                <tr class="bold">
-                    <td>16:30</td>
-                    <td colspan="2">Encerramento/Agradecimento</td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- FOOTER -->
+        <footer class="footer">
+          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
+        </footer>
+        <!-- / FOOTER -->
       </div>
     </div>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- / CONTENT -->
+  </div>
 
-    ga('create', 'UA-49662634-1', 'auto');
-    ga('send', 'pageview');
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="themes/yellow-swan/js/jquery.js"><\/script>')</script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="themes/yellow-swan/js/main.js"></script>
+  
+
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
   </script>
-  <script src="https://code.jquery.com/jquery-git2.min.js"></script>
-  <script src="javascripts/certificados2015.js"></script>
-  </body>
+  <!-- /GOOGLE ANALYTICS -->
+</body>
 </html>
