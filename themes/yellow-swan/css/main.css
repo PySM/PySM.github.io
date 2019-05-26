@@ -900,3 +900,10 @@ nav {
     display: none;
   }
 }
+
+table {
+    font-size: 1.6em;
+    line-height: 2em;
+    margin-bottom: 1.4em;
+    color: #777;
+}
